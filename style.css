@@ -1,0 +1,35 @@
+h1, h2{
+    text-align: center;
+}
+.central{
+    display: table;
+    margin: auto;
+    border: 2px solid green;
+}
+.imagem1{
+    display: table;
+    margin: auto;
+    border: 2px solid green;
+    max-width: 100%;
+}
+.imagem2{
+    display: table;
+    margin: auto;
+    border: 2px solid green;
+    max-width: 100%;
+}
+table{
+   display: table;
+   margin: auto;
+}
+@media (max-width:550px) {
+    .central{
+        display: table;
+        margin: auto;
+        border: 2px solid green;
+    }
+}
+iframe{
+    display: block;
+    margin: auto;
+}
